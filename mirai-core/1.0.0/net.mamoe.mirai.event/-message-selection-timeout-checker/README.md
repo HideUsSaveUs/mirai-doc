@@ -5,7 +5,7 @@
 `inline class MessageSelectionTimeoutChecker`
 
 ### Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [timeoutMillis](timeout-millis.md) | `val timeoutMillis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 
+| Name | Summary |
+|---|---|
+| [timeoutMillis](timeout-millis.md) | `val timeoutMillis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
