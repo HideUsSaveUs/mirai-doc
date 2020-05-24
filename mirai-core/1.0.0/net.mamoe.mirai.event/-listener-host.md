@@ -14,5 +14,6 @@
 
 ### Inheritors
 
+| Name | Summary |
+|---|---|
 | [SimpleListenerHost](-simple-listener-host/index.md) | 携带一个异常处理器的 [ListenerHost](./-listener-host.md).`abstract class SimpleListenerHost : `[`ListenerHost`](./-listener-host.md)`, CoroutineScope` |
-
