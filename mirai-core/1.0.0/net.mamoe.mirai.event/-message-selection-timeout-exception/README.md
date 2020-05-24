@@ -5,7 +5,7 @@
 `class MessageSelectionTimeoutException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html)
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [&lt;init&gt;](-init-.md) | `MessageSelectionTimeoutException()` |
 
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `MessageSelectionTimeoutException()` |
