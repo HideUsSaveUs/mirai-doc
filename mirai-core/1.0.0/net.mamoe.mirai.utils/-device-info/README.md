@@ -8,24 +8,21 @@
 
 ### Types
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [Version](-version/index.md) | `interface Version` |
+| Name | Summary |
+|---|---|
+| [Version](-version/index.md) | `interface Version` |
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | 设备信息. 可通过继承 [SystemDeviceInfo](../-system-device-info/index.md) 来在默认的基础上修改`DeviceInfo()` |
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | 设备信息. 可通过继承 [SystemDeviceInfo](../-system-device-info/index.md) 来在默认的基础上修改`DeviceInfo()` |
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [androidId](android-id.md) | `abstract val androidId: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
+| Name | Summary |
+|---|---|
+| [androidId](android-id.md) | `abstract val androidId: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [apn](apn.md) | `abstract val apn: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [baseBand](base-band.md) | `abstract val baseBand: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [board](board.md) | `abstract val board: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
@@ -51,16 +48,13 @@
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [generateDeviceInfoData](generate-device-info-data.md) | `fun generateDeviceInfoData(): `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
+| Name | Summary |
+|---|---|
+| [generateDeviceInfoData](generate-device-info-data.md) | `fun generateDeviceInfoData(): `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 
 ### Inheritors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [DeviceInfoData](../-device-info-data/index.md) | `class DeviceInfoData : `[`DeviceInfo`](./index.md) |
+| Name | Summary |
+|---|---|
+| [DeviceInfoData](../-device-info-data/index.md) | `class DeviceInfoData : `[`DeviceInfo`](./index.md) |
 | [SystemDeviceInfo](../-system-device-info/index.md) | 通过本机信息来获取设备信息.`open class SystemDeviceInfo : `[`DeviceInfo`](./index.md) |
-
