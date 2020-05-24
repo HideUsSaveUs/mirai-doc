@@ -7,7 +7,7 @@
 权限不足
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [&lt;init&gt;](-init-.md) | `PermissionDeniedException()`<br>`PermissionDeniedException(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?)` |
 
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `PermissionDeniedException()`<br>`PermissionDeniedException(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?)` |
