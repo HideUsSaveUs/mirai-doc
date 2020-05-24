@@ -10,10 +10,9 @@
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [allowAnonymousChat](allow-anonymous-chat.md) | 允许匿名聊天`abstract val allowAnonymousChat: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| Name | Summary |
+|---|---|
+| [allowAnonymousChat](allow-anonymous-chat.md) | 允许匿名聊天`abstract val allowAnonymousChat: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [allowMemberInvite](allow-member-invite.md) | 允许群员邀请其他人加入群`abstract val allowMemberInvite: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [autoApprove](auto-approve.md) | 自动审批加群请求`abstract val autoApprove: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [botMuteTimestamp](bot-mute-timestamp.md) | 机器人被禁言还剩时间, 秒.`abstract val botMuteTimestamp: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
@@ -24,4 +23,3 @@
 | [name](name.md) | 名称`abstract val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [owner](owner.md) | 群主`abstract val owner: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 | [uin](uin.md) | Uin`abstract val uin: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
-
