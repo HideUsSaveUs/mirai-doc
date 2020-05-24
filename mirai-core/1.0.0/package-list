@@ -1,4 +1,4 @@
-$dokka.format:markdown
+$dokka.format:gfm
 $dokka.linkExtension:md
 $dokka.location:net.mamoe.mirai$recallIn(kotlinx.coroutines.CoroutineScope, net.mamoe.mirai.message.data.MessageChain, kotlin.Long, kotlin.coroutines.CoroutineContext)net.mamoe.mirai/kotlinx.coroutines.-coroutine-scope/recall-in.md
 $dokka.location:net.mamoe.mirai$recallIn(kotlinx.coroutines.CoroutineScope, net.mamoe.mirai.message.data.MessageSource, kotlin.Long, kotlin.coroutines.CoroutineContext)net.mamoe.mirai/kotlinx.coroutines.-coroutine-scope/recall-in.md
