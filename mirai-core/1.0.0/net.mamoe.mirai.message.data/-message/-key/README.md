@@ -16,7 +16,7 @@
 @param M 指代持有这个 Key 的消息类型
 
 ### Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [typeName](type-name.md) | 此 [Key](./index.md) 指代的 [Message](../index.md) 类型名. 一般为 `class.simpleName`, 如 "QuoteReply", "PlainText"`abstract val typeName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
+| Name | Summary |
+|---|---|
+| [typeName](type-name.md) | 此 [Key](./index.md) 指代的 [Message](../index.md) 类型名. 一般为 `class.simpleName`, 如 "QuoteReply", "PlainText"`abstract val typeName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
