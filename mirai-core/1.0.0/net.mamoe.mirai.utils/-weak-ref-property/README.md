@@ -12,8 +12,6 @@ Indicates that the property is delegated by a [WeakRef](../-weak-ref/index.md)
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | Indicates that the property is delegated by a [WeakRef](../-weak-ref/index.md)`WeakRefProperty()` |
-
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | Indicates that the property is delegated by a [WeakRef](../-weak-ref/index.md)`WeakRefProperty()` |
