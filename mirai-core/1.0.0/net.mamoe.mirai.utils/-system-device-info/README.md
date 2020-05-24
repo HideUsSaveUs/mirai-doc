@@ -11,24 +11,21 @@ JVM: 部分为常量, 部分为随机
 
 ### Types
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [Version](-version/index.md) | `object Version : Version` |
+| Name | Summary |
+|---|---|
+| [Version](-version/index.md) | `object Version : Version` |
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | `SystemDeviceInfo()`<br>`SystemDeviceInfo(context: `[`Context`](../-context/index.md)`)` |
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `SystemDeviceInfo()`<br>`SystemDeviceInfo(context: `[`Context`](../-context/index.md)`)` |
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [androidId](android-id.md) | `open val androidId: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
+| Name | Summary |
+|---|---|
+| [androidId](android-id.md) | `open val androidId: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [apn](apn.md) | `open val apn: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [baseBand](base-band.md) | `open val baseBand: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 | [board](board.md) | `open val board: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
@@ -50,4 +47,3 @@ JVM: 部分为常量, 部分为随机
 | [version](version.md) | `open val version: Version` |
 | [wifiBSSID](wifi-b-s-s-i-d.md) | `open val wifiBSSID: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`?` |
 | [wifiSSID](wifi-s-s-i-d.md) | `open val wifiSSID: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`?` |
-
