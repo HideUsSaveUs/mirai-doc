@@ -11,15 +11,12 @@
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | 标记这个类, 类型, 函数, 属性, 字段, 或构造器为实验性的 API.`MiraiExperimentalAPI(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "")` |
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | 标记这个类, 类型, 函数, 属性, 字段, 或构造器为实验性的 API.`MiraiExperimentalAPI(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "")` |
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [message](message.md) | `val message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
+| Name | Summary |
+|---|---|
+| [message](message.md) | `val message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
