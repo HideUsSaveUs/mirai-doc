@@ -11,16 +11,15 @@
 [Contact.sendMessage](../-contact/send-message.md)
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Name | Summary |
+|---|---|
 | [&lt;init&gt;](-init-.md) | 发送消息时消息过长抛出的异常.`MessageTooLargeException(target: `[`Contact`](../-contact/index.md)`, originalMessage: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md)`, messageAfterEvent: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md)`, exceptionMessage: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
 
 ### Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [messageAfterEvent](message-after-event.md) | 经过事件拦截处理后的消息`val messageAfterEvent: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md) ||||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [originalMessage](original-message.md) | 原发送消息`val originalMessage: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md) ||||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [target](target.md) | `val target: `[`Contact`](../-contact/index.md) |
 
+| Name | Summary |
+|---|---|
+| [messageAfterEvent](message-after-event.md) | 经过事件拦截处理后的消息`val messageAfterEvent: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md) |
+| [originalMessage](original-message.md) | 原发送消息`val originalMessage: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md) |
+| [target](target.md) | `val target: `[`Contact`](../-contact/index.md) |
