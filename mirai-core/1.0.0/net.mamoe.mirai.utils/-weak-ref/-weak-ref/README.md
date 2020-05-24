@@ -20,16 +20,13 @@ GC(garbage collection) can automatically collect and release the memory used by 
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | Weak Reference. On JVM, it is implemented as a typealias referring to `WeakReference` from JDK.`WeakRef(referent: T)` |
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | Weak Reference. On JVM, it is implemented as a typealias referring to `WeakReference` from JDK.`WeakRef(referent: T)` |
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [clear](clear.md) | `fun clear(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| Name | Summary |
+|---|---|
+| [clear](clear.md) | `fun clear(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [get](get.md) | `fun get(): T?` |
-
