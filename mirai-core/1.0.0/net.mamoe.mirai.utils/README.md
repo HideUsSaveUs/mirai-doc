@@ -4,10 +4,9 @@
 
 ### Types
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [BotConfiguration](-bot-configuration/index.md) | [Bot](../net.mamoe.mirai/-bot/index.md) 配置.`open class BotConfiguration` |
+| Name | Summary |
+|---|---|
+| [BotConfiguration](-bot-configuration/index.md) | [Bot](../net.mamoe.mirai/-bot/index.md) 配置.`open class BotConfiguration` |
 | [Context](-context/index.md) | On Android, typealias to `android.content.Context` On JVM, empty class.`abstract class Context` |
 | [ContextImpl](-context-impl/index.md) | `open class ContextImpl : `[`Context`](-context/index.md) |
 | [DefaultLoginSolver](-default-login-solver/index.md) | 自动选择 [SwingSolver](-swing-solver/index.md) 或 [StandardCharImageLoginSolver](-standard-char-image-login-solver/index.md)`class DefaultLoginSolver : `[`LoginSolver`](-login-solver/index.md) |
@@ -31,10 +30,9 @@
 
 ### Annotations
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [MiraiExperimentalAPI](-mirai-experimental-a-p-i/index.md) | 标记这个类, 类型, 函数, 属性, 字段, 或构造器为实验性的 API.`annotation class MiraiExperimentalAPI` |
+| Name | Summary |
+|---|---|
+| [MiraiExperimentalAPI](-mirai-experimental-a-p-i/index.md) | 标记这个类, 类型, 函数, 属性, 字段, 或构造器为实验性的 API.`annotation class MiraiExperimentalAPI` |
 | [MiraiInternalAPI](-mirai-internal-a-p-i/index.md) | 标记为一个仅供 Mirai 内部使用的 API.`annotation class MiraiInternalAPI` |
 | [SinceMirai](-since-mirai/index.md) | 标记一个自 Mirai 某个版本起才支持或在这个版本修改过的 API.`annotation class SinceMirai` |
 | [Throws](-throws/index.md) | This annotation indicates what exceptions should be declared by a function when compiled to a JVM method.`annotation class Throws` |
@@ -42,17 +40,15 @@
 
 ### Exceptions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [OverFileSizeMaxException](-over-file-size-max-exception/index.md) | 图片文件过大`class OverFileSizeMaxException : `[`IllegalStateException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-illegal-state-exception/index.html) |
+| Name | Summary |
+|---|---|
+| [OverFileSizeMaxException](-over-file-size-max-exception/index.md) | 图片文件过大`class OverFileSizeMaxException : `[`IllegalStateException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-illegal-state-exception/index.html) |
 
 ### Extensions for External Classes
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [java.awt.image.BufferedImage](java.awt.image.-buffered-image/index.md) |  |
+| Name | Summary |
+|---|---|
+| [java.awt.image.BufferedImage](java.awt.image.-buffered-image/index.md) |  |
 | [java.io.File](java.io.-file/index.md) |  |
 | [java.io.InputStream](java.io.-input-stream/index.md) |  |
 | [java.lang.ref.WeakReference](java.lang.ref.-weak-reference/index.md) |  |
@@ -64,19 +60,17 @@
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [currentTimeMillis](current-time-millis.md) | 时间戳`val currentTimeMillis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
+| Name | Summary |
+|---|---|
+| [currentTimeMillis](current-time-millis.md) | 时间戳`val currentTimeMillis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 | [currentTimeSeconds](current-time-seconds.md) | `val currentTimeSeconds: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
 | [DefaultLogger](-default-logger.md) | 用于创建默认的日志记录器. 在一些需要使用日志的 Mirai 的组件, 如 [Bot](../net.mamoe.mirai/-bot/index.md), 都会通过这个函数构造日志记录器.`var DefaultLogger: (identity: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?) -> `[`MiraiLogger`](-mirai-logger/index.md) |
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [debug](debug.md) | `fun `[`MiraiLogger`](-mirai-logger/index.md)`.debug(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`MiraiLogger`](-mirai-logger/index.md)`.debug(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| Name | Summary |
+|---|---|
+| [debug](debug.md) | `fun `[`MiraiLogger`](-mirai-logger/index.md)`.debug(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`MiraiLogger`](-mirai-logger/index.md)`.debug(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [error](error.md) | `fun `[`MiraiLogger`](-mirai-logger/index.md)`.error(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`MiraiLogger`](-mirai-logger/index.md)`.error(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [getValue](get-value.md) | Provides delegate value.`operator fun <T> `[`UnsafeWeakRef`](-unsafe-weak-ref/index.md)`<T>.getValue(thisRef: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?, property: `[`KProperty`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-property/index.html)`<*>): T` |
 | [info](info.md) | `fun `[`MiraiLogger`](-mirai-logger/index.md)`.info(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`MiraiLogger`](-mirai-logger/index.md)`.info(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
@@ -88,4 +82,3 @@
 | [warning](warning.md) | `fun `[`MiraiLogger`](-mirai-logger/index.md)`.warning(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`MiraiLogger`](-mirai-logger/index.md)`.warning(lazyMessage: () -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [weakRef](weak-ref.md) | Provides a weak reference to [this](weak-ref/-this-.md) The `getValue` for delegation returns [this](weak-ref/-this-.md) when [this](weak-ref/-this-.md) is not released by GC`fun <T> T.weakRef(): `[`WeakRef`](-weak-ref/index.md)`<T>` |
 | [withSwitch](with-switch.md) | 给这个 logger 添加一个开关, 用于控制是否记录 log`fun `[`MiraiLogger`](-mirai-logger/index.md)`.withSwitch(default: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true): `[`MiraiLoggerWithSwitch`](-mirai-logger-with-switch/index.md) |
-
