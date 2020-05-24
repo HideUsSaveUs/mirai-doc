@@ -20,31 +20,27 @@ val bot = Bot(...) {
 
 ### Types
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [MiraiProtocol](-mirai-protocol/index.md) | `enum class MiraiProtocol` |
+| Name | Summary |
+|---|---|
+| [MiraiProtocol](-mirai-protocol/index.md) | `enum class MiraiProtocol` |
 
 ### Annotations
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [ConfigurationDsl](-configuration-dsl/index.md) | 标注一个配置 DSL 函数`annotation class ConfigurationDsl` |
+| Name | Summary |
+|---|---|
+| [ConfigurationDsl](-configuration-dsl/index.md) | 标注一个配置 DSL 函数`annotation class ConfigurationDsl` |
 
 ### Constructors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [&lt;init&gt;](-init-.md) | [Bot](../../net.mamoe.mirai/-bot/index.md) 配置.`BotConfiguration()` |
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | [Bot](../../net.mamoe.mirai/-bot/index.md) 配置.`BotConfiguration()` |
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [botLoggerSupplier](bot-logger-supplier.md) | 日志记录器`var botLoggerSupplier: (`[`Bot`](../../net.mamoe.mirai/-bot/index.md)`) -> `[`MiraiLogger`](../-mirai-logger/index.md) |
+| Name | Summary |
+|---|---|
+| [botLoggerSupplier](bot-logger-supplier.md) | 日志记录器`var botLoggerSupplier: (`[`Bot`](../../net.mamoe.mirai/-bot/index.md)`) -> `[`MiraiLogger`](../-mirai-logger/index.md) |
 | [deviceInfo](device-info.md) | 设备信息覆盖. 在没有手动指定时将会通过日志警告, 并使用随机设备信息.`var deviceInfo: ((`[`Context`](../-context/index.md)`) -> `[`DeviceInfo`](../-device-info/index.md)`)?` |
 | [fileCacheStrategy](file-cache-strategy.md) | 缓存策略`var fileCacheStrategy: `[`FileCacheStrategy`](../-file-cache-strategy/index.md) |
 | [firstReconnectDelayMillis](first-reconnect-delay-millis.md) | 心跳失败后的第一次重连前的等待时间.`var firstReconnectDelayMillis: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
@@ -59,10 +55,9 @@ val bot = Bot(...) {
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [copy](copy.md) | `fun copy(): `[`BotConfiguration`](./index.md) |
+| Name | Summary |
+|---|---|
+| [copy](copy.md) | `fun copy(): `[`BotConfiguration`](./index.md) |
 | [fileBasedDeviceInfo](file-based-device-info.md) | 使用文件存储设备信息.`fun fileBasedDeviceInfo(filepath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "device.json"): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [inheritCoroutineContext](inherit-coroutine-context.md) | 使用当前协程的 [coroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/coroutine-context.html) 作为 [parentCoroutineContext](parent-coroutine-context.md).`suspend fun inheritCoroutineContext(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [noBotLog](no-bot-log.md) | 不显示 [Bot](../../net.mamoe.mirai/-bot/index.md) 日志. 不推荐.`fun noBotLog(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
@@ -71,8 +66,6 @@ val bot = Bot(...) {
 
 ### Companion Object Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [Default](-default.md) | 默认的配置实例. 可以进行修改`val Default: `[`BotConfiguration`](./index.md) |
-
+| Name | Summary |
+|---|---|
+| [Default](-default.md) | 默认的配置实例. 可以进行修改`val Default: `[`BotConfiguration`](./index.md) |
