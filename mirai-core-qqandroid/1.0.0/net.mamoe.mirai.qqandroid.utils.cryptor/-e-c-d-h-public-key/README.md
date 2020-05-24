@@ -5,7 +5,7 @@
 `interface ECDHPublicKey`
 
 ### Functions
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [getEncoded](get-encoded.md) | `abstract fun getEncoded(): `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
 
+| Name | Summary |
+|---|---|
+| [getEncoded](get-encoded.md) | `abstract fun getEncoded(): `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html) |
