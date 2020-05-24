@@ -5,7 +5,7 @@
 `class CustomMessageFullDataDeserializeInternalException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html)
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [&lt;init&gt;](-init-.md) | `CustomMessageFullDataDeserializeInternalException(cause: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?)` |
 
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `CustomMessageFullDataDeserializeInternalException(cause: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`?)` |
