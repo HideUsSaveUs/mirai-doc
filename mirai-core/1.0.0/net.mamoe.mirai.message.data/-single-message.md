@@ -8,10 +8,14 @@
 
 ### Extension Properties
 
+| Name | Summary |
+|---|---|
 | [content](content.md) | [Message.contentToString](-message/content-to-string.md) 的捷径`val `[`Message`](-message/index.md)`.content: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 
+| Name | Summary |
+|---|---|
 | [asMessageChain](as-message-chain.md) | 直接将 [this](as-message-chain/-this-.md) 委托为一个 [MessageChain](-message-chain/index.md)`fun `[`SingleMessage`](./-single-message.md)`.asMessageChain(): `[`MessageChain`](-message-chain/index.md) |
 | [flatten](flatten.md) | 扁平化 [Message](-message/index.md)`fun `[`Message`](-message/index.md)`.flatten(): `[`Sequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence/index.html)`<`[`SingleMessage`](./-single-message.md)`>` |
 | [isContentEmpty](is-content-empty.md) | 判断消息内容是否为空.`fun `[`Message`](-message/index.md)`.isContentEmpty(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
@@ -26,7 +30,8 @@
 
 ### Inheritors
 
+| Name | Summary |
+|---|---|
 | [CustomMessage](-custom-message/index.md) | 自定义消息`sealed class CustomMessage : `[`SingleMessage`](./-single-message.md) |
 | [MessageContent](-message-content.md) | 消息内容`interface MessageContent : `[`SingleMessage`](./-single-message.md) |
 | [MessageMetadata](-message-metadata/index.md) | 消息元数据, 即不含内容的元素.`interface MessageMetadata : `[`SingleMessage`](./-single-message.md) |
-
