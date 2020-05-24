@@ -16,31 +16,26 @@
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| Name | Summary |
+|---|---|
+| [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Companion Object Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [defaultFormatName](default-format-name.md) | `const val defaultFormatName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| Name | Summary |
+|---|---|
+| [defaultFormatName](default-format-name.md) | `const val defaultFormatName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Companion Object Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [generateImageId](generate-image-id.md) | `fun generateImageId(md5: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| Name | Summary |
+|---|---|
+| [generateImageId](generate-image-id.md) | `fun generateImageId(md5: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [generateUUID](generate-u-u-i-d.md) | `fun generateUUID(md5: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [sendTo](../send-to.md) | 将图片作为单独的消息发送给指定联系人`suspend fun <C : `[`Contact`](../../net.mamoe.mirai.contact/-contact/index.md)`> `[`ExternalImage`](./index.md)`.sendTo(contact: C): `[`MessageReceipt`](../../net.mamoe.mirai.message/-message-receipt/index.md)`<C>` |
+| Name | Summary |
+|---|---|
+| [sendTo](../send-to.md) | 将图片作为单独的消息发送给指定联系人`suspend fun <C : `[`Contact`](../../net.mamoe.mirai.contact/-contact/index.md)`> `[`ExternalImage`](./index.md)`.sendTo(contact: C): `[`MessageReceipt`](../../net.mamoe.mirai.message/-message-receipt/index.md)`<C>` |
 | [upload](../upload.md) | 上传图片并通过图片 ID 构造 [Image](../../net.mamoe.mirai.message.data/-image/index.md) 这个函数可能需消耗一段时间`suspend fun `[`ExternalImage`](./index.md)`.upload(contact: `[`Contact`](../../net.mamoe.mirai.contact/-contact/index.md)`): `[`Image`](../../net.mamoe.mirai.message.data/-image/index.md) |
-
