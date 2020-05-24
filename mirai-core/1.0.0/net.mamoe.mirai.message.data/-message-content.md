@@ -30,10 +30,14 @@
 
 ### Extension Properties
 
+| Name | Summary |
+|---|---|
 | [content](content.md) | [Message.contentToString](-message/content-to-string.md) 的捷径`val `[`Message`](-message/index.md)`.content: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 
+| Name | Summary |
+|---|---|
 | [flatten](flatten.md) | 扁平化 [Message](-message/index.md)`fun `[`Message`](-message/index.md)`.flatten(): `[`Sequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence/index.html)`<`[`SingleMessage`](-single-message.md)`>` |
 | [isContentEmpty](is-content-empty.md) | 判断消息内容是否为空.`fun `[`Message`](-message/index.md)`.isContentEmpty(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [isContentNotEmpty](is-content-not-empty.md) | `fun `[`Message`](-message/index.md)`.isContentNotEmpty(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
@@ -47,6 +51,8 @@
 
 ### Inheritors
 
+| Name | Summary |
+|---|---|
 | [At](-at/index.md) | At 一个群成员. 只能发送给一个群.`data class At : `[`MessageContent`](./-message-content.md) |
 | [AtAll](-at-all/index.md) | "@全体成员".`object AtAll : Key<`[`AtAll`](-at-all/index.md)`>, `[`MessageContent`](./-message-content.md) |
 | [Face](-face/index.md) | QQ 自带表情`data class Face : `[`MessageContent`](./-message-content.md) |
@@ -57,4 +63,3 @@
 | [PlainText](-plain-text/index.md) | 纯文本. 可含 emoji 表情如 😊.`data class PlainText : `[`MessageContent`](./-message-content.md) |
 | [PttMessage](-ptt-message/index.md) | 需要通过上传到服务器的消息，如语音、文件`abstract class PttMessage : `[`MessageContent`](./-message-content.md) |
 | [RichMessage](-rich-message/index.md) | XML, JSON 消息等富文本消息`interface RichMessage : `[`MessageContent`](./-message-content.md) |
-
