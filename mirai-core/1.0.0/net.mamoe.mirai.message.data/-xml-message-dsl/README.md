@@ -5,7 +5,7 @@
 `@Target([AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.TYPE]) @DslMarker annotation class XmlMessageDsl`
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [&lt;init&gt;](-init-.md) | `XmlMessageDsl()` |
 
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `XmlMessageDsl()` |
