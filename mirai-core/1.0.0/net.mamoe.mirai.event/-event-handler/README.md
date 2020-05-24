@@ -104,16 +104,15 @@ Events.registerEvents(new MyEventHandlers())
 ```
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Name | Summary |
+|---|---|
 | [&lt;init&gt;](-init-.md) | 标注一个函数为事件监听器.`EventHandler(priority: EventPriority = EventPriority.NORMAL, ignoreCancelled: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true, concurrency: ConcurrencyKind = Listener.ConcurrencyKind.CONCURRENT)` |
 
 ### Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [concurrency](concurrency.md) | 并发类型`val concurrency: ConcurrencyKind` ||||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ignoreCancelled](ignore-cancelled.md) | 是否自动忽略被 [取消](../-cancellable-event/is-cancelled.md)`val ignoreCancelled: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) ||||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [priority](priority.md) | 监听器优先级`val priority: EventPriority` |
 
+| Name | Summary |
+|---|---|
+| [concurrency](concurrency.md) | 并发类型`val concurrency: ConcurrencyKind` |
+| [ignoreCancelled](ignore-cancelled.md) | 是否自动忽略被 [取消](../-cancellable-event/is-cancelled.md)`val ignoreCancelled: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [priority](priority.md) | 监听器优先级`val priority: EventPriority` |
