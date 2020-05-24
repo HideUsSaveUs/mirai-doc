@@ -8,20 +8,17 @@
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [filter](filter.md) | `val filter: M.(`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| Name | Summary |
+|---|---|
+| [filter](filter.md) | `val filter: M.(`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [and](and.md) | 进行逻辑 `and`.`infix fun and(another: ListeningFilter<M, Ret, R, RR>): ListeningFilter<M, Ret, R, RR>` |
+| Name | Summary |
+|---|---|
+| [and](and.md) | 进行逻辑 `and`.`infix fun and(another: ListeningFilter<M, Ret, R, RR>): ListeningFilter<M, Ret, R, RR>` |
 | [invoke](invoke.md) | 启动事件监听.`operator fun invoke(onEvent: `[`MessageListener`](../../-message-listener.md)`<M, R>): Ret` |
 | [nand](nand.md) | 进行逻辑 `nand`, 即 `not and`.`infix fun nand(another: ListeningFilter<M, Ret, R, RR>): ListeningFilter<M, Ret, R, RR>` |
 | [not](not.md) | 进行逻辑 `not``fun not(): ListeningFilter<M, Ret, R, RR>` |
 | [or](or.md) | 进行逻辑 `or`.`infix fun or(another: ListeningFilter<M, Ret, R, RR>): ListeningFilter<M, Ret, R, RR>` |
 | [xor](xor.md) | 进行逻辑 `xor`.`infix fun xor(another: ListeningFilter<M, Ret, R, RR>): ListeningFilter<M, Ret, R, RR>` |
-
