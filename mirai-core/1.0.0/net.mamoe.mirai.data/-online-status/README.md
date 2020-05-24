@@ -8,10 +8,9 @@
 
 ### Enum Values
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [ONLINE](-o-n-l-i-n-e.md) | 我在线上 |
+| Name | Summary |
+|---|---|
+| [ONLINE](-o-n-l-i-n-e.md) | 我在线上 |
 | [OFFLINE](-o-f-f-l-i-n-e.md) | 离线 |
 | [AWAY](-a-w-a-y.md) | 离开 |
 | [INVISIBLE](-i-n-v-i-s-i-b-l-e.md) | 隐身 |
@@ -23,16 +22,13 @@
 
 ### Properties
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [id](id.md) | `val id: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| Name | Summary |
+|---|---|
+| [id](id.md) | `val id: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 
 ### Companion Object Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [ofId](of-id.md) | `fun ofId(id: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`OnlineStatus`](./index.md) |
+| Name | Summary |
+|---|---|
+| [ofId](of-id.md) | `fun ofId(id: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`OnlineStatus`](./index.md) |
 | [ofIdOrNull](of-id-or-null.md) | `fun ofIdOrNull(id: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`OnlineStatus`](./index.md)`?` |
-
