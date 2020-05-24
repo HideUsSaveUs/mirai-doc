@@ -11,17 +11,19 @@
 [Group.sendMessage](../-group/send-message.md)
 
 ### Constructors
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Name | Summary |
+|---|---|
 | [&lt;init&gt;](-init-.md) | 发送消息时 bot 正处于被禁言状态时抛出的异常.`BotIsBeingMutedException(target: `[`Group`](../-group/index.md)`)` |
 
 ### Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| Name | Summary |
+|---|---|
 | [target](target.md) | `val target: `[`Group`](../-group/index.md) |
 
 ### Extension Properties
-|||
-|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [botMuteRemaining](../bot-mute-remaining.md) | `val `[`BotIsBeingMutedException`](./index.md)`.botMuteRemaining: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 
+| Name | Summary |
+|---|---|
+| [botMuteRemaining](../bot-mute-remaining.md) | `val `[`BotIsBeingMutedException`](./index.md)`.botMuteRemaining: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
