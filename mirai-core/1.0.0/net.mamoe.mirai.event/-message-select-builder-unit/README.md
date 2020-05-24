@@ -14,10 +14,9 @@
 
 ### Functions
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [-&gt;](--.md) | `open infix fun `[`MessageSelectionTimeoutChecker`](../-message-selection-timeout-checker/index.md)`.->(message: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`open infix fun `[`MessageSelectionTimeoutChecker`](../-message-selection-timeout-checker/index.md)`.->(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| Name | Summary |
+|---|---|
+| [-&gt;](--.md) | `open infix fun `[`MessageSelectionTimeoutChecker`](../-message-selection-timeout-checker/index.md)`.->(message: `[`Message`](../../net.mamoe.mirai.message.data/-message/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`open infix fun `[`MessageSelectionTimeoutChecker`](../-message-selection-timeout-checker/index.md)`.->(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [default](default.md) | 当其他条件都不满足时的默认处理.`abstract fun default(onEvent: `[`MessageListener`](../-message-listener.md)`<M, R>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [defaultQuoteReply](default-quote-reply.md) | 当其他条件都不满足时引用回复原消息.`fun defaultQuoteReply(block: suspend () -> `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [defaultReply](default-reply.md) | 当其他条件都不满足时回复原消息.`fun defaultReply(block: suspend () -> `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
@@ -31,8 +30,6 @@
 
 ### Inheritors
 
-"
-                                    |||
-                                    |:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                                    | [MessageSelectBuilder](../-message-select-builder.md) | [selectMessages](../select-messages.md) 时的 DSL 构建器.`abstract class MessageSelectBuilder<M : `[`MessageEvent`](../../net.mamoe.mirai.message/-message-event/index.md)`, R> : `[`MessageSelectBuilderUnit`](./index.md)`<M, R>` |
-
+| Name | Summary |
+|---|---|
+| [MessageSelectBuilder](../-message-select-builder.md) | [selectMessages](../select-messages.md) 时的 DSL 构建器.`abstract class MessageSelectBuilder<M : `[`MessageEvent`](../../net.mamoe.mirai.message/-message-event/index.md)`, R> : `[`MessageSelectBuilderUnit`](./index.md)`<M, R>` |
