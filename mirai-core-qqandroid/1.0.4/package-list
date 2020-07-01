@@ -1,0 +1,7 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+
+net.mamoe.mirai.qqandroid
+net.mamoe.mirai.qqandroid.network.protocol
+net.mamoe.mirai.qqandroid.network.protocol.data.proto
+net.mamoe.mirai.qqandroid.utils.cryptor
